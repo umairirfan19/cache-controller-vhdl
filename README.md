@@ -17,7 +17,7 @@ The cache sits between the CPU and SDRAM and handles address decoding, hit/miss 
 |--------|-------|
 Cache size | 256 bytes |
 Block size | 32 bytes |
-# of blocks | 8 |
+Cache lines | 8 |
 Word size | 1 byte |
 Associativity | Direct mapped |
 CPU Address width | 16 bits |
