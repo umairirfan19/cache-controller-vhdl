@@ -1,0 +1,49 @@
+# Xilinx ISE / Vivado build files
+*.bit
+*.bgn
+*.drc
+*.lso
+*.ngc
+*.ngd
+*.ncd
+*.mrp
+*.par
+*.pcf
+*.prj
+*.ptwx
+*.twx
+*.twr
+*.xwbt
+*.log
+*.cmd
+*.cmd_log
+*.jou
+*.str
+*.wdb
+*.wcfg
+*.xml
+*.html
+
+# Simulation junk
+*.wlf
+*.vcd
+*.exe
+*.o
+*.ini
+
+# Backup/Temp files
+*~
+*.tmp
+*.bak
+
+# Xilinx auto generated folders
+xst/
+isim/
+ipcore_dir/
+_xmsgs/
+_xst/
+ngo/
+xlnx_auto_0_xdb/
+
+# MacOS Finder junk
+.DS_Store
