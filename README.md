@@ -36,7 +36,7 @@ Write hit | Update cache, set dirty bit |
 Miss & dirty = 0 | Load block from SDRAM and update tag/valid bits |
 Miss & dirty = 1 | Write back old block to SDRAM, then load new block |
 
-The design interacts with the CPU, BlockRAM, and SDRAM according to the timing and control signals defined in the COE758 project specification :contentReference[oaicite:0]{index=0}.
+The design follows a 16-bit CPU memory interface with direct-mapped caching, 8 cache lines, 32-byte blocks, valid/dirty bit tracking, and a write-back policy. It communicates with SDRAM using request/acknowledge handshaking and block transfer cycles for cache fills and evictions.
 
 ---
 
