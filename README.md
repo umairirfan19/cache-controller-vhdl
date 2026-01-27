@@ -1,6 +1,6 @@
 # CPU Cache Controller in VHDL (COE758 Project)
 
-This project implements a **direct-mapped cache controller** in **VHDL** for a simple CPU system as part of the **COE758 – Digital Systems Engineering** course at Toronto Metropolitan University.
+This project implements a **direct-mapped cache controller** in **VHDL** for a simple CPU system as part of the **COE758 - Digital Systems Engineering** course at Toronto Metropolitan University.
 
 The design models a basic memory hierarchy consisting of:
 - CPU issuing read/write requests
@@ -72,6 +72,6 @@ The design was verified using VHDL behavioral simulation by:
 
 ## 📎 Course
 
-**COE758 — Digital Systems Engineering**  
+**COE758 - Digital Systems Engineering**  
 Toronto Metropolitan University (TMU)
 
